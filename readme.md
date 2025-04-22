@@ -1,4 +1,4 @@
-<img width="594" alt="LLMresponse" src="https://github.com/user-attachments/assets/7aafc137-c8ac-407b-8d96-68cf4fd81155" /># MCP Trading Agent
+# MCP Trading Agent
 
 This project implements a custom Trading Agent for Zerodha using the new MCP (Model Context Protocol) TypeScript SDK built from scratch.
 
