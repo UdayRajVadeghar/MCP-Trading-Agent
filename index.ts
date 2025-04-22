@@ -9,21 +9,25 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
-server.tool("get-profile-info", async () => {
-  const profileInfo = await getProfile();
-  const name = profileInfo?.user_name;
-  const id = profileInfo?.user_id;
-  const email = profileInfo?.email;
-  // console.log(profileInfo);
-  return {
-    content: [
-      {
-        type: "text",
-        text: `This is your profile info ${name} ${id} ${email}`,
-      },
-    ],
-  };
-});
+server.tool(
+  "get-profile-info",
+  "This is the Information of the Zerodha. So while displaying it , mention it clearly that its zerodhas",
+  async () => {
+    const profileInfo = await getProfile();
+    const name = profileInfo?.user_name;
+    const id = profileInfo?.user_id;
+    const email = profileInfo?.email;
+    // console.log(profileInfo);
+    return {
+      content: [
+        {
+          type: "text",
+          text: `This is your profile info ${name} ${id} ${email}`,
+        },
+      ],
+    };
+  }
+);
 
 server.tool(
   "buy-stock",
