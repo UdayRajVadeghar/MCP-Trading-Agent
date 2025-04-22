@@ -1,10 +1,10 @@
 # MCP Trading Agent
 
-This project implements a custom Trading Agent for Zerodha using the new MCP (Model Context Protocol) TypeScript SDK. Built from scratch, this implementation showcases modern trading strategies with TypeScript's type safety and robust error handling.
+This project implements a custom Trading Agent for Zerodha using the new MCP (Model Context Protocol) TypeScript SDK built from scratch.
 
 ## Overview
 
-This trading agent is designed to execute trading strategies on Zerodha's platform using the Model Context Protocol. It leverages the full capabilities of the MCP TypeScript SDK to interact with Zerodha's trading interface efficiently and safely.
+This trading agent is designed to execute trading on Zerodha's platform using the Model Context Protocol. It leverages the full capabilities of the MCP TypeScript SDK to interact with Zerodha's trading interface efficiently and safely.
 
 ## Features
 
