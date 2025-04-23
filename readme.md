@@ -2,7 +2,7 @@
 
 This project implements a custom Trading Agent for Zerodha using the new MCP (Model Context Protocol) TypeScript SDK built from scratch.
 
-# Practical (More to come , cuz its on development)
+# Practical 
 
 ## Buying Stock
 <img width="634" alt="buyOrder" src="https://github.com/user-attachments/assets/a94ead63-614a-40f0-9034-63d0b88fc2dc" />
